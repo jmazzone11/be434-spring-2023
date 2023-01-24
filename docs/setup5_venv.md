@@ -2,6 +2,14 @@
 
 When you installed Python on your computer (see setup2_python) you installed it globally on your computer. But, working in a global environment can be tricky because different versions of python packages may not play nicely together. To avoid any conflicts, developers usually create a virtual environment for each project and then install the packages they need in that virtual environment. When you then run a Python program within that environment, you know that it's running against only those specific packages. 
 
+## PC users will need to install venv before proceeding
+
+For a PC, you will need to get venv installed on your machine (if you haven't already). In powershell, please run:
+
+```
+sudo apt install python3.11-venv
+```
+
 ## Setting up a virtual environment in our be434-spring-2023 folder
 
 We are going to create a virtual environment in VS Code for our class. We will install several python packages that will help us to test, debug and format our code in this virtual environment. 
@@ -21,8 +29,7 @@ The command presents a list of environment types: Venv or Conda. Select Venv.
 The the command presents a list of interpreters that can be used as a base Python for the new virtual environment. Select Python Version 3.11.1 that we just installed.
 ![2venv](./images/2_venv_select_python_version.png "Selecting a venv python version")
 
-
-### Step 2: Install the Python modules we need for this class.
+### Step 2: Install the Python modules we need for this class
 
 Once you have created your vitual environment, you can install Python modules in that environment. In Python, modules are how you obtain any number of useful code libraries. For example, in this class we will use several modules that will help us to test, debug and format code. These are all contained in the requirement.txt file in the docs directory in the be434-spring-2023 Github repository.  
 
@@ -39,7 +46,8 @@ For a Mac, you will need to enter the following commands in the terminal:
 source .venv/bin/activate
 ```
 
-For a PC, you will need to enter the following commands:
+For PC, you will need to run:
+
 ```
 Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope Process
 .venv\scripts\activate
@@ -95,6 +103,7 @@ $ flake8 # this command will check code linting.
 ```
 
 ## Fixing a small issue with pylint
+
 Now you have installed all of the python modules that we need for testing your code! Congrats! When we start testing our code (in the weeks to come), you might find that "pylint" complains about the variable `rv` (return value) that is in the _test.py_ file of each homework. This is a perfectly fine variable name, so to silence this warning, create your own configuration file like so:
 
 ```
