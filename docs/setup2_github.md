@@ -1,8 +1,8 @@
-# Task 4: Getting started with Github
+# Task 2: Getting started with Github
 
 All of the homework assignments for this class will be submitted using GitHub, a freely available code repository. GitHub allows programmers to share and collaboratively write code together. It also allows users to track changes they make in their code and revert back to older versions if needed. As part of this class you will share your code with me (your instructor Bonnie Hurwitz) so that I can grade your assignments. If you get stuck you can also "push" your code to Github and I can point out errors or mistakes for you to fix.
 
-Also, all of the course materials are available to you in a GitHub repository. Below, you will learn how to make a copy of this repository and use it for writing code and turning in homework assignments. 
+Also, all of the course materials are available to you in a GitHub repository. Below, you will learn how to make a copy of this repository and use it for writing code and turning in homework assignments.
 
 ## Creating a GitHub account
 
@@ -14,9 +14,9 @@ First, create your free [GitHub](http://github.com) account
 * Go to [GitHub](http://github.com)
 * Create a (free) user account
 
-## Copy the course repository to your own GitHub account.
+## Copy the course repository to your own GitHub account
 
-Next, go to the [course repository](https://github.com/bhurwitz33/be434-spring-2023) and click the "Fork" button so as to make a copy of the code into your own Github account. 
+Next, go to the [course repository](https://github.com/bhurwitz33/be434-spring-2023) and click the "Fork" button so as to make a copy of the code into your own Github account.
 
 * Go to [the course repo](https://github.com/bhurwitz33/be434-spring-2023)
 * Click the "Fork" button (upper-right)
