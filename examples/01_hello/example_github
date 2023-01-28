@@ -1,0 +1,6 @@
+#!/usr/bin/env python3
+"""
+Author: Josie
+Purpose: Say hello
+"""
+print("I am doing an example push")
