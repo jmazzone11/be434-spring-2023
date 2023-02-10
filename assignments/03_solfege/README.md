@@ -4,20 +4,6 @@ For this exercise, we'll draw inspiration from the song "Do-Re-Mi" from _The Sou
 
 https://www.youtube.com/watch?v=drnBMAEA3AM
 
-## Be sure you are in your virtual environment
-Open the be434-spring-2023 directory in VS Code (in your GitHub repository) and then activate the virtual machine:
-
-For a Mac, you will need to enter the following commands in the terminal:
-```
-source .venv/bin/activate
-```
-
-For a PC, you will need to enter the following commands:
-```
-.venv\scripts\activate
-Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope Process
-```
-
 ## Program Description
 
 Your program will accept one or more positional arguments which may or may not name a syllable of [solfege](https://en.wikipedia.org/wiki/Solf%C3%A8ge).

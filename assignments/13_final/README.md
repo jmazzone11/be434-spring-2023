@@ -7,20 +7,6 @@ The program should accept
 1. one or more positional arguments which should be readable text files 
 2. `-o|--outfile` output file option that defaults to `STDOUT`
 
-## Be sure you are in your virtual environment
-Open the be434-spring-2023 directory in VS Code (in your GitHub repository) and then activate the virtual machine:
-
-For a Mac, you will need to enter the following commands in the terminal:
-```
-source .venv/bin/activate
-```
-
-For a PC, you will need to enter the following commands:
-```
-.venv\scripts\activate
-Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope Process
-```
-
 ## Usage
 
 When run with no arguments, the program should print a brief usage:

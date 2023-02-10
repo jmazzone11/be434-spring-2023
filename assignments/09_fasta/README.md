@@ -24,20 +24,6 @@ NGCTCCTAGGTCGGCATGATGGGGGAAGGAGAGCATGGGAAGAAATGAGAGAGTAGCAA
 CGCTAGCTACGACTCGACGACAGCGAACACGCGATCGATCGGAAATGAGAGAGTAGCAA
 ```
 
-## Be sure you are in your virtual environment
-Open the be434-spring-2023 directory in VS Code (in your GitHub repository) and then activate the virtual machine:
-
-For a Mac, you will need to enter the following commands in the terminal:
-```
-source .venv/bin/activate
-```
-
-For a PC, you will need to enter the following commands:
-```
-.venv\scripts\activate
-Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope Process
-```
-
 ## Usage
 
 You will use [Biopython](https://biopython.org/) to parse the FASTA files into records containing fields like `rec.id` and `rec.seq`.

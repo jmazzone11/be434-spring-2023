@@ -5,20 +5,6 @@ The input sequence should be a positional argument.
 The codon table for the `-c` or `--codons` option is _required_ and should be a valid, readable file.
 The `-o` or `--output` option (default `'out.txt'`) will name a file to write the output. 
 
-## Be sure you are in your virtual environment
-Open the be434-spring-2023 directory in VS Code (in your GitHub repository) and then activate the virtual machine:
-
-For a Mac, you will need to enter the following commands in the terminal:
-```
-source .venv/bin/activate
-```
-
-For a PC, you will need to enter the following commands:
-```
-.venv\scripts\activate
-Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope Process
-```
-
 ## Program Overview
 
 When run with no inputs, the program should print a brief usage:

@@ -39,32 +39,39 @@ All your assignments will be pushed to GitHub where I will pull the code to my m
 
 ![3git](./images/3_github_add_a_collaborator.png "Share your repo with instructor")
 
-## Download your GitHub course repository to your laptop where you can work on python code locally
+## Install Git, a program for managing source code, to update your GitHub repository locally on your laptop
 
-Next, you will need to create a copy of this repository on your laptop so you can work on python code locally, and then turn it in by pushing the code back to Github (more on this next). I recommend using [the Github Desktop](https://desktop.github.com/)
+In order to use Git locally on your laptop, you need to install [Git](https://git-scm.com/), a program for managing source code (see instructions below for macOS and PC users). In the next setup doc (setup3), I will show you how to use Git from VS Code, a code editor, to write Python directly on your laptop, and then submit these changes back to GitHub (a web-based code repository).
 
-* Download [the Github Desktop](https://desktop.github.com/) for your laptop
-* From the top menu bar, select Github Desktop, then select Preferences, go to Accounts, and login to Github
-* From the top menu bar, select Github Desktop, then select Preferences, go to Integrations, select Visual Studio Code as the "External Editor"
-* Be sure to "save" your Preferences
+### Mac Users Git Installation
 
-![4git](./images/4_github_account_login.png "Login to GitHub on Desktop")
+* Install homebrew if you don't already have it, run the following command from a terminal window (Applications -> Utils -> Terminal).
 
-![5git](./images/5_github_integrations_vscode.png "Integrate Desktop with VS Code")
+```
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+```
 
-With that, you now should be able _clone_ or copy down the contents of the repo onto your local machine (e.g., your laptop). 
+* Install Git
 
-* Using GitHub desktop, Go to File in the top menu, and select "Clone Repository"
-* Use the "Filter your repositories" box to find "be434-spring-2023" in your GitHub Account
-* Select the "be434-spring-2023" and click the "Clone" button to copy the repository to your local directory
+```
+brew install git
+```
 
-![6git](./images/6_github_clone_be434_repo_to_desktop.png "Find your repository")
+### PC Users Git Installation
 
-![7git](./images/7_github_clone_your_repository.png "Clone your repository")
+* Download the .exe Git installation program from [Git](https://git-scm.com/) for your computer
+* Follow all defaults except for the following two. These are important settings, otherwise you will end up with an error saying that your Python tests fail due to "\r" return characters at the end of every line in your code. No fun!
 
-Now that you have your first Github account and repository created, you can push and pull to/from your web-based GitHub repository and your computer. This is similar to Google drive where you might have a copy of a file locally on your computer, and also a copy that you uploaded to Google Drive. The main difference is that these files are connected, so GitHub knows that a file is new or modified on your laptop compared to what you have in your web-based GitHub repository.
+
+![4git](./images/1_win_git_editor.png "Tell Git you would like to use VS code as your editor.")
+
+![5git](./images/2_win_line_conv.png "Tell Git you want Check-out as is, commit Unix-style line endings.")
+
+
+## Install GitHub Desktop
+One option for using Git, is to download the Desktop version of the program [here](https://desktop.github.com/). Once you have Downloaded it, login to GitHub with Github Desktop and clone the BE434-spring-2023 repository to your laptop.
+
 
 ## Authors
 
 Bonnie Hurwitz <bhurwitz@arizona.edu> and Ken Youens-Clark <kyclark@gmail.com>
-

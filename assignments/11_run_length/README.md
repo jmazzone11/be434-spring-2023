@@ -3,20 +3,6 @@
 Write a Python program called `run.py` that will compress strings of DNA using [run-length encoding](https://en.wikipedia.org/wiki/Run-length_encoding) (RLE) where runs of the same base (homopolymers) are represented by the base followed by a numeral representing the number of repetitions.
 The program should accept a single input that is either a sequence to encode or a file containing sequences on each line.
 
-## Be sure you are in your virtual environment
-Open the be434-spring-2023 directory in VS Code (in your GitHub repository) and then activate the virtual machine:
-
-For a Mac, you will need to enter the following commands in the terminal:
-```
-source .venv/bin/activate
-```
-
-For a PC, you will need to enter the following commands:
-```
-.venv\scripts\activate
-Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope Process
-```
-
 ## Usage
 
 When run with no arguments, the program should produce a brief usage:

@@ -3,20 +3,6 @@
 In this exercise, I want you to write a Python program called `common.py` that will find the words in common between two files, which should be provided as two positional arguments.
 The words should be sorted lexicographically and printed to `STDOUT` by default, though the program should provide an optional output filename.
 
-## Be sure you are in your virtual environment
-Open the be434-spring-2023 directory in VS Code (in your GitHub repository) and then activate the virtual machine:
-
-For a Mac, you will need to enter the following commands in the terminal:
-```
-source .venv/bin/activate
-```
-
-For a PC, you will need to enter the following commands:
-```
-.venv\scripts\activate
-Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope Process
-```
-
 ## Usage
 
 When run with no arguments, the program should print a brief usage:

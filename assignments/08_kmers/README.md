@@ -3,20 +3,6 @@
 In this exercise, you will build on the `common.py` assignment to find the common k-mers between two files.
 You will create a Python program called `kmers.py` that accepts two readable text files and an optional `-k|--kmer` argument that accepts an integer value greater than 0 and which defaults to 3.
 
-## Be sure you are in your virtual environment
-Open the be434-spring-2023 directory in VS Code (in your GitHub repository) and then activate the virtual machine:
-
-For a Mac, you will need to enter the following commands in the terminal:
-```
-source .venv/bin/activate
-```
-
-For a PC, you will need to enter the following commands:
-```
-.venv\scripts\activate
-Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope Process
-```
-
 ## Usage
 
 When provided no arguments, the program should print a brief usage:
