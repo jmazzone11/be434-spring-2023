@@ -36,12 +36,12 @@ def main():
              'Sol': 'A needle pulling thread', 'La': 'A note to follow sol',
              'Ti': 'A drink with jam and bread'}
 
-    for st in solfege:
-        if st in notes:
-            text = notes.get(st)
-            print(st + ', ' + text)
+    for line in solfege:
+        if line in notes:
+            text = notes.get(line)
+            print(line + ', ' + text)
         else:
-            print(f'I don\'t know "{st}"')
+            print(f'I don\'t know "{line}"')
 
 
 # --------------------------------------------------
