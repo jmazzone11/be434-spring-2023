@@ -80,7 +80,7 @@ def test_file():
                 os.remove(out_file)
 
             basename = os.path.basename(expected_file)
-            in_file = os.path.join('../inputs', basename)
+            in_file = os.path.join('./test-outs', basename)
             out = getoutput(f'{prg} {out_flag()} {out_file} {in_file}')
             assert out.strip() == ''
             produced = open(out_file).read().rstrip()
