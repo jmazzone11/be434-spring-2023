@@ -16,13 +16,18 @@ def get_args():
         description='practice',
         formatter_class=argparse.ArgumentDefaultsHelpFormatter)
 
+    parser.add_argument('text', 
+                        metavar='text', 
+                        help='Input text or file')
+
+    parser.add_argument('-v',
+                        '--vowel',
+                        help='The vowel to substitute',
+                        metavar='vowel',
+                        type=str,
+                        default='a',
+                        choices=list('aeiou'))
     
-    parser.add_argument('-f',
-                        '--file',
-                        help='Input file',
-                        metavar='str',
-                        type=argparse.FileType('r'),
-                        default='wordcount.txt')
 
     return parser.parse_args()
 
@@ -32,9 +37,12 @@ def main():
     """Make a jazz noise here"""
 
     args = get_args()
-    x = args.file
+    text = args.text
+    vowel = args.vowel
 
-    print(type(x))
+    new_text = [ vowel if char in 'aeiou' else vowel.upper() if char in 'AEIOU' else char for char in text]
+    print(new_text)
+    
     
 
 
