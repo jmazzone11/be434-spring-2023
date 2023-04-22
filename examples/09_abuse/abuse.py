@@ -71,11 +71,16 @@ def main():
         gull harpy jack jolthead knave liar lunatic maw milksop minion
         ratcatcher recreant rogue scold slave swine traitor varlet villain worm
         """.strip().split()
-    random.seed(args.seed)
+    #random.seed(args.seed)
 
-    for n in range(args.number):
-        print(f"You {', '.join(random.sample(adjectives, args.adjectives))} {random.choice(nouns)}!")
+    #for n in range(args.number):
+    #    print(f"You {', '.join(random.sample(adjectives, args.adjectives))} {random.choice(nouns)}!")
     
+   
+    x = 'foo', 'bar', 'baz'
+    _, val, _ = x
+
+    print(val)
 
 
 # --------------------------------------------------

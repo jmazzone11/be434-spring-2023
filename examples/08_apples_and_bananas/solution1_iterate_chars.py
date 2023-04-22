@@ -13,7 +13,9 @@ def get_args():
         description='Apples and bananas',
         formatter_class=argparse.ArgumentDefaultsHelpFormatter)
 
-    parser.add_argument('text', metavar='text', help='Input text or file')
+    parser.add_argument('text', 
+                        metavar='text', 
+                        help='Input text or file')
 
     parser.add_argument('-v',
                         '--vowel',

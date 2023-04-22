@@ -33,17 +33,23 @@ def get_args():
 
 
 # --------------------------------------------------
+def f(n):
+    return n ** n
+
 def main():
     """Make a jazz noise here"""
 
     args = get_args()
-    text = args.text
-    vowel = args.vowel
+    #text = args.text
+    #vowel = args.vowel
 
-    new_text = [ vowel if char in 'aeiou' else vowel.upper() if char in 'AEIOU' else char for char in text]
-    print(new_text)
+    #new_text = [ vowel if char in 'aeiou' else vowel.upper() if char in 'AEIOU' else char for char in text]
+    #print(new_text)
+    #print(f(3))
     
-    
+    with open('exercises.csv') as fh:
+
+        values = fh.readline().rstrip().split(',')
 
 
 # --------------------------------------------------

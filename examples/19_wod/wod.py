@@ -61,48 +61,11 @@ def main():
     """Make a jazz noise here"""
 
     args = get_args()
-    random.seed(args.seed)
-    exercises = read_csv(args.file)
-
-    if not exercises: 
-        sys.exit(f'No usable data in --file "{args.file.name}"')
+    with open('inputs/exercises.csv') as fh:
+        values = fh.readline().rstrip().split(',')
+    print(type(values))
     
-    num_exercises = len(exercises)
-    if args.num > num_exercises:
-        sys.exit(f'--num "{args.num}" > exercises "{num_exercises}"')
-
-    wod = []
-    for exercise, low, high in random.sample(exercises, k =args.num): 
-        reps = random.randint(low, high)
-        if args.easy:
-            reps = int(reps/2)
-        wod.append((exercise, reps))
-    
-    print(tabulate(wod, headers= ('Exercise', 'Reps')))
-
-def read_csv(fh):
-    """Read the CSV input"""
-
-    
-    reader = csv.DictReader(fh, delimiter = ',')
-    exercises = []
-    for rec in reader:
-        name, reps = rec.get('exercise'), rec.get('reps')
-        if name and reps: 
-            match = re.match('(\d+)-(\d+)', reps)
-            #low, high = map(int, reps.split('-'))
-            if match:
-                low, high = map(int, match.groups())
-                exercises.append((name, low, high))
-    
-    return exercises
-
 # --------------------------------------------------
-def test_read_csv():
-    """Test read_csv"""
-
-    text = io.StringIO('exercise,reps\nBurpees,20-50\nSitups,40-100')
-    assert read_csv(text) == [('Burpees', 20, 50), ('Situps', 40, 100)]
 
 # --------------------------------------------------
 if __name__ == '__main__':

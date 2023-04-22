@@ -1,0 +1,67 @@
+inputs/constitution.txt:The House of Representatives shall be composed of Members chosen every second
+inputs/constitution.txt:The actual Enumeration shall be made within three Years after the first Meeting
+inputs/constitution.txt:Years, in such Manner as they shall by Law direct. The Number of
+inputs/constitution.txt:The House of Representatives shall choose their Speaker and other Officers; and
+inputs/constitution.txt:The Senate of the United States shall be composed of two Senators from each
+inputs/constitution.txt:they shall be divided as equally as may be into three Classes. The Seats of the
+inputs/constitution.txt:The Vice President of the United States shall be President of the Senate, but
+inputs/constitution.txt:The Senate shall choose their other Officers, and also a President pro tempore,
+inputs/constitution.txt:The Senate shall have the sole Power to try all Impeachments. When sitting for
+inputs/constitution.txt:The Times, Places and Manner of holding Elections for Senators and
+inputs/constitution.txt:The Congress shall assemble at least once in every Year, and such Meeting shall
+inputs/constitution.txt:The Senators and Representatives shall receive a Compensation for their
+inputs/constitution.txt:States. They shall in all Cases, except Treason, Felony and Breach of the
+inputs/constitution.txt:The Congress shall have Power To lay and collect Taxes, Duties, Imposts and
+inputs/constitution.txt:The Migration or Importation of such Persons as any of the States now existing
+inputs/constitution.txt:The privilege of the Writ of Habeas Corpus shall not be suspended, unless when
+inputs/constitution.txt:The executive Power shall be vested in a President of the United States of
+inputs/constitution.txt:The Electors shall meet in their respective States, and vote by Ballot for two
+inputs/constitution.txt:the President of the Senate. The President of the Senate shall, in the Presence
+inputs/constitution.txt:Votes shall then be counted. The Person having the greatest Number of Votes
+inputs/constitution.txt:The Congress may determine the Time of choosing the Electors, and the Day on
+inputs/constitution.txt:The President shall, at stated Times, receive for his Services, a Compensation,
+inputs/constitution.txt:The President shall be Commander in Chief of the Army and Navy of the United
+inputs/constitution.txt:The President shall have Power to fill up all Vacancies that may happen during
+inputs/constitution.txt:The President, Vice President and all civil Officers of the United States,
+inputs/constitution.txt:The judicial Power of the United States, shall be vested in one supreme Court,
+inputs/constitution.txt:establish. The Judges, both of the supreme and inferior Courts, shall hold
+inputs/constitution.txt:The judicial Power shall extend to all Cases, in Law and Equity, arising under
+inputs/constitution.txt:The Trial of all Crimes, except in Cases of Impeachment, shall be by Jury; and
+inputs/constitution.txt:The Congress shall have power to declare the Punishment of Treason, but no
+inputs/constitution.txt:The Citizens of each State shall be entitled to all Privileges and Immunities
+inputs/constitution.txt:The Congress shall have Power to dispose of and make all needful Rules and
+inputs/constitution.txt:The United States shall guarantee to every State in this Union a Republican
+inputs/constitution.txt:The Congress, whenever two thirds of both Houses shall deem it necessary, shall
+inputs/constitution.txt:The Senators and Representatives before mentioned, and the Members of the
+inputs/constitution.txt:The Ratification of the Conventions of nine States, shall be sufficient for the
+inputs/constitution.txt:The right of the people to be secure in their persons, houses, papers, and
+inputs/constitution.txt:The enumeration in the Constitution, of certain rights, shall not be construed
+inputs/constitution.txt:The powers not delegated to the United States by the Constitution, nor
+inputs/constitution.txt:The Judicial power of the United States shall not be construed to extend to any
+inputs/constitution.txt:The Electors shall meet in their respective states, and vote by ballot for
+inputs/constitution.txt:The President of the Senate shall, in the presence of the Senate and House of
+inputs/constitution.txt:The person having the greatest Number of votes for President, shall be the
+inputs/constitution.txt:The person having the greatest number of votes as Vice-President, shall be the
+inputs/constitution.txt:4. The validity of the public debt of the United States, authorized by law,
+inputs/constitution.txt:5. The Congress shall have power to enforce, by appropriate legislation, the
+inputs/constitution.txt:1. The right of citizens of the United States to vote shall not be denied or
+inputs/constitution.txt:2. The Congress shall have power to enforce this article by appropriate
+inputs/constitution.txt:The Congress shall have power to lay and collect taxes on incomes, from
+inputs/constitution.txt:The Senate of the United States shall be composed of two Senators from each
+inputs/constitution.txt:have one vote. The electors in each State shall have the qualifications
+inputs/constitution.txt:2. The Congress and the several States shall have concurrent power to enforce
+inputs/constitution.txt:The right of citizens of the United States to vote shall not be denied or
+inputs/constitution.txt:1. The terms of the President and Vice President shall end at noon on the 20th
+inputs/constitution.txt:2. The Congress shall assemble at least once in every year, and such meeting
+inputs/constitution.txt:4. The Congress may by law provide for the case of the death of any of the
+inputs/constitution.txt:1. The eighteenth article of amendment to the Constitution of the United States
+inputs/constitution.txt:2. The transportation or importation into any State, Territory, or possession
+inputs/constitution.txt:3. The article shall be inoperative unless it shall have been ratified as an
+inputs/constitution.txt:1. The District constituting the seat of Government of the United States shall
+inputs/constitution.txt:2. The Congress shall have power to enforce this article by appropriate
+inputs/constitution.txt:1. The right of citizens of the United States to vote in any primary or other
+inputs/constitution.txt:2. The Congress shall have power to enforce this article by appropriate
+inputs/constitution.txt:Thereafter, when the President transmits to the President pro tempore of the
+inputs/constitution.txt:President is unable to discharge the powers and duties of his office. Thereupon
+inputs/constitution.txt:1. The right of citizens of the United States, who are eighteen years of age or
+inputs/constitution.txt:2. The Congress shall have power to enforce this article by appropriate

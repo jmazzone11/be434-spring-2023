@@ -66,8 +66,8 @@ def main():
             reps = int(reps / 2)
         wod.append((name, reps))
 
-    # pprint(wod)
-    print(tabulate(wod, headers=('Exercise', 'Reps')))
+    pprint(wod)
+    #print(tabulate(wod, headers=('Exercise', 'Reps')))
 
 
 # --------------------------------------------------
