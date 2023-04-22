@@ -54,10 +54,10 @@ def main():
 
     pattern = args.pattern
 
-    input_file = args.file
+    file = args.file
 
-    for i in input_file:
-        file_name = i.name + ':' if len(input_file) > 1 else ''
+    for i in file:
+        file_name = i.name + ':' if len(file) > 1 else ''
         for line in i:
             if args.insensitive:
                 if re.search(pattern, line, re.IGNORECASE):
