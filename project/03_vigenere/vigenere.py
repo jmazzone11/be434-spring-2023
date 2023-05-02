@@ -20,7 +20,7 @@ def get_args():
                         metavar='FILE',
                         help='Input file',
                         type=argparse.FileType('rt'))
-    
+
     parser.add_argument('-k',
                         '--keyword',
                         help='A keyword',
@@ -52,45 +52,49 @@ def main():
     letters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'
 
     keyword = args.keyword.upper()
-    
+
     def find_letters(file, keyword):
-        letters_count = 0
-        letters_index = []
-        for line in file:
-            for char in line:
-                if char.upper() in letters:
-                    letters_count += 1
-                    letters_index.append(letters.index(char.upper()))
-        repeat = (keyword * (letters_count//len(keyword) + 1))[:letters_count]
-        key_index = [letters.index(char.upper()) for char in repeat if char.upper() in letters]
-        if args.decode:
-            final = [sum(pair) for pair in zip(letters_index, [-i for i in key_index])]
-        else:
-            final = [sum(pair) for pair in zip(letters_index, key_index)]
+        letters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'
         output = []
-        for line in final:
-            out = letters[line] if line < 26 else letters[(line - 26)]
-            output.append(out)
+        for line in file:
+            letters_count = 0
+            letters_index = []
+            key_index = []
+            for char in line:
+                char = char.upper()
+                if char in letters:
+                    letters_count += 1
+                    letters_index.append(letters.index(char))
+                    repeat = (keyword * (letters_count //
+                              len(keyword) + 1))[:letters_count]
+                    key_c = [char for char in repeat if char in letters]
+                    key_index.append(letters.index(key_c[-1]))
+            if args.decode:
+                final = [sum(pair) for pair in zip(
+                    letters_index, [-i for i in key_index])]
+            else:
+                final = [sum(pair) for pair in zip(letters_index, key_index)]
+            line_output = []
+            for index in final:
+                out = letters[index] if index < 26 else letters[(index - 26)]
+                line_output.append(out)
+            output.append(''.join(line_output))
         return output
 
-    x = find_letters(file, keyword)
-    
+    result = ''.join(find_letters(file, keyword))
+
     file.seek(0)
-    
+
     counter = 0
     for line in file:
         for char in line:
             if char.upper() in letters:
-                correct = x[counter]
-                counter += 1 
+                correct = result[counter]
+                counter += 1
             else:
                 correct = char
-            print(correct, end = '')
-        
-        
-    
-    
-                
+            print(correct, end='')
+
 
 # --------------------------------------------------
 if __name__ == '__main__':
